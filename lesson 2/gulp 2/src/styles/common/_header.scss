@@ -1,0 +1,81 @@
+$home_img: url('../images/Background.png');
+
+.body{
+    width: 1440px;
+}
+.img-logo{
+    background-image: $home_img;
+    background-repeat: no-repeat;
+    @include wh(1440px, 700px); 
+   background-position: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.logo-link-menu{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.dreamshare,.dreamshare-2{
+    font-size: 20px;
+    font-family: 'Montserrat Bold';
+    text-transform: uppercase;
+    padding-top: 46px;
+}
+.register-form{
+    display: flex;
+    font-family: 'Montserrat Regular';
+    font-size: 14px;
+}
+.log-in{
+    margin-top: 50px;
+    margin-right: 19px;
+}
+
+.sign-up{
+    outline-color: #ffff;
+    outline-style: solid;
+    outline-width: 2px;
+    border-radius: 13px;
+    padding: 10px 18px;
+    margin-top: 40px;
+}
+.header-text-info{
+    position: relative;
+    top: 153px;
+   
+}
+.header-logo-text{
+    font-family: 'Montserrat Bold';
+    color: #FFFFFF;
+    font-size: 52px;
+    width: 470px;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo-text{
+    font-family: 'Roboto Light';
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+    margin-bottom: 33px;
+}
+
+.button-header{
+   
+    border-radius: 40px;
+    color: #ffff;
+    font-family: 'Montserrat Bold';
+    font-size: 14px;
+    background: center no-repeat #FF4E50;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12px;
+    @include wh(225px, 28px);
+}
